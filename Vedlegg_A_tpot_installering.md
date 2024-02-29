@@ -1,4 +1,4 @@
-# T-Pot installering
+# T-Pot 22.04.0 installering
 
 ## Last ned ISO fil
 https://github.com/telekom-security/tpotce/releases 
