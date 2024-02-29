@@ -8,9 +8,9 @@ For å teste etablerte vi en Kali-maskin i samme VLAN. Under følger spesifikasj
 
 ## SSH
 Først gjorde vi en nmap scan
-´´´bash
+```bash
   nmap <your ip>
-´´´
+```
 Deretter ser man at port 22 er åpen for ssh
 
 ![image](https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/a91caa04-c66c-4263-9470-d960ee29f3c3)
@@ -21,14 +21,14 @@ Så lagde vi en fil med en rekke brukernavn som vi ønsket å teste
 
 Etter dette ble gjort benyttet vi programmet "hydra" i kali for å teste ulike kombinasjoner av brukernavn og passord med den kjente rockyou.txt, en stor samling av mange kjente passord.
 
-´´´bash
+```bash
   hydra -L users.txt -P /usr/share/wordlists/rockyou.txt <your ip> ssh -t 40 -I -V -f
-´´´
+```
 <img width="241" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/d21d6672-5095-4309-9ca1-e99d125a8e27">
 
-´´´bash
+```bash
   ssh root@<your ip>
-´´´
+```
 
 Man skriver deretter inn passordet som ble funnet og logger inn. 
 
