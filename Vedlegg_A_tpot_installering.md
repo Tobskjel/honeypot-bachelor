@@ -55,3 +55,38 @@ IP-adressen kommer opp når man først starter opp T-Pot (IP-adressene skjult me
 
 På en annen klient (vi benytter en Windows 10 klient) koblet til samme VLAN, gå inn på https://<your.ip>:64297
 
+Logg inn med Web UI brukernavn og passord. Da vil man få opp dashboard til T-Pot:
+
+![image](https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/730b391d-8677-45fc-8b59-14d2c0d926d8)
+
+Herifra har man tilgang til diverse verktøy for å holde oversikt over T-Pot.
+
+Går man inn på https://<your.ip>:64294 og logger inn med administrator brukernavn og passord, vil man få administratorverktøy. Her fikk vi en feilmelding, samme feilmelding som man får på oppstart til T-Pot "Failed to start, raise network interfaces"
+
+![image](https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/41c7d689-251e-418e-83c2-d6cd82ec6215)
+![image](https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/2b15edd8-bc35-4bc1-be44-1906e0ac3495)
+
+Måten vi løser dette på er å gjøre følgende i CLI på T-pot:
+```bash
+  sudo route
+```
+Her ser du hvilken interface (iface) som er tilknyttet destination: default. Når man har denne skriver man følgende
+```bash
+  cd /etc/network
+  sudo nano interfaces
+```
+Deretter endrer man "The Primary Network Interface" til den man fant i forrige steg
+
+![image](https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/244165f0-afc9-4638-a0f9-803860657a8b)
+
+Kjør deretter:
+```bash
+  sudo reboot
+```
+Legg merke til at <your ip> endrer seg. 
+```bash
+  sudo systemctl status networking.service
+```
+Og bekreft at den er "aktiv"
+![image](https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/e46f9d88-4e0b-40f0-a5d7-c84e9044f539)
+
