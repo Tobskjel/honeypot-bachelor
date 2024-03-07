@@ -40,3 +40,4 @@ I tillegg kommer checkpot med oversikt over hva den selv har funnet. Dette var r
 ![image](https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/ddcc90b9-b5f6-4ef9-a305-2bbc7e02e6a5)
 
 Her ser man at Checkpot i tillegg kommer med lenker til deres nettside, der de kommer med anbefalinger på hva slags handlinger man kan gjøre for å kunne unngå å bli oppdaget.
+
