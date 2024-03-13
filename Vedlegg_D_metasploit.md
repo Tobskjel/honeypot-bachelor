@@ -41,11 +41,17 @@ På 9 porter klarte den ikke identifisere hvilke tjenester som kjørte. Portene 
 1024
 1026
 
-|23|test|   |   |   |
-|---|---|---|---|---|
-|23|   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|Porter|Tilknyttet tjeneste|
+|---|---|
+|23|Cowrie, Heralding, qHoneypots|
+|110|Heralding, qHoneypots|
+|143|Heralding, qHoneypots|
+|445|Dionaea, qHoneypots|
+|465|Ingen|
+|993|Heralding|
+|995|Heralding|
+|1024|Ingen|
+|1026|Ingen|
 
 Den klarte å identifisere port 1443 til å være tilknyttet en honeypot:
 
