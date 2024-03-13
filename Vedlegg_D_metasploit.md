@@ -25,4 +25,31 @@ db_nmap: Dette er en Metasploitkommando som lar deg bruke Nmap-skanninger. Den l
 
 -p-: Denne ber Nmap skanne alle porter på målmaskinen, altså fra 1 til 65535. Normalt vil Nmap bare skanne de vanlige portene hvis det ikke blir spesifisert noe annet.
 
-Denne testen startet vi 11. Mars 08:43 CET
+Denne testen startet vi 11. Mars 08:43 CET, den tok 139004 sekunder, i underkant av 2 døgn.
+
+### Resultater
+Skannen kjørte gjennom alle portene, og mange av de ga ingenting. Allikevel fikk skannen noen resultater.
+
+På 9 porter klarte den ikke identifisere hvilke tjenester som kjørte. Portene var som følger:
+23
+110
+143
+445
+465
+993
+995
+1024
+1026
+
+|23|test|   |   |   |
+|---|---|---|---|---|
+|23|   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+Den klarte å identifisere port 1443 til å være tilknyttet en honeypot:
+
+![image](https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/60b4c36f-70ca-4d52-ae49-5addabafc98d)
+
+
+
