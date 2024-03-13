@@ -57,8 +57,15 @@ Den klarte å identifisere port 1443 til å være tilknyttet en honeypot:
 
 <img width="315" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/f40000c3-2ede-44ed-853b-d8c3cead04c4">
 
+Selve skannen ga også mye aktivitet. Her er alle treffene i tidsperioden denne skannen kjørte:
 
+<img width="958" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/d9ae2fd6-23fa-4522-8a7e-8fe7bf087c11">
 
+Selv om skannen viste aktivitet betyr ikke det nødvendigvis at noe ble avslørt. Ser man mer i detaljene på loggene ser man at det blant annet er blitt forsøkt utnyttet noen sårbarheter:
 
+<img width="198" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/6a53db96-d46b-47f8-8ec1-faa8ff03eaad">
 
+Man får også en del varsler på ulike IDer fra Suricata:
+
+<img width="322" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/e53b7c84-8a4f-46d4-9da5-adeac31c1728">
 
