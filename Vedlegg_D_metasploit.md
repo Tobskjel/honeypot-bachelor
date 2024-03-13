@@ -55,7 +55,10 @@ På 9 porter klarte den ikke identifisere hvilke tjenester som kjørte. Portene 
 
 Den klarte å identifisere port 1443 til å være tilknyttet en honeypot:
 
-![image](https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/60b4c36f-70ca-4d52-ae49-5addabafc98d)
+<img width="315" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/f40000c3-2ede-44ed-853b-d8c3cead04c4">
+
+
+
 
 
 
