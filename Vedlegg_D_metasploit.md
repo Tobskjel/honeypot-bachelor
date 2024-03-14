@@ -31,15 +31,6 @@ Denne testen startet vi 11. Mars 08:43 CET, den tok 139004 sekunder, i underkant
 Skannen kjørte gjennom alle portene, og mange av de ga ingenting. Allikevel fikk skannen noen resultater.
 
 På 9 porter klarte den ikke identifisere hvilke tjenester som kjørte. Portene var som følger:
-23
-110
-143
-445
-465
-993
-995
-1024
-1026
 
 |Porter|Tilknyttet tjeneste|
 |---|---|
@@ -52,6 +43,7 @@ På 9 porter klarte den ikke identifisere hvilke tjenester som kjørte. Portene 
 |995|Heralding|
 |1024|Ingen|
 |1026|Ingen|
+|1027|Ingen|
 
 Den klarte å identifisere port 1443 til å være tilknyttet en honeypot:
 
@@ -68,4 +60,10 @@ Selv om skannen viste aktivitet betyr ikke det nødvendigvis at noe ble avslørt
 Man får også en del varsler på ulike IDer fra Suricata:
 
 <img width="322" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/e53b7c84-8a4f-46d4-9da5-adeac31c1728">
+
+På port 80 fikk man dette treffet:
+
+<img width="311" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/b994aaca-4eac-4a39-ac33-ed0cc6600690">
+
+På port 80 ligger Snare (Tanner), så den ene nettsiden denne kan utgi seg som er en wordpress bloggside. En trusselaktør vet nok fra før at Wordpress kan ha en del sårbarheter, og vil vurdere å utnytte disse. 
 
