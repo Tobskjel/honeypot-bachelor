@@ -18,6 +18,9 @@ Allikevel viser ikke denne oversikten hvor mange som angrep, men kun antallet an
 
 <img width="220" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/90e2fcb2-a50e-4458-b1f4-2249535e8391">
 
+<img width="334" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/f5c25c49-50ad-4bb1-bff9-ca3fff35ce5c">
+
+
 Under er et kart som gir en god oversikt over hvor mesteparten av aktiviteten har kommet fra.
 
 <img width="598" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/339fa103-fb41-4fa7-9d12-ab1b82a9407c">
