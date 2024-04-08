@@ -26,7 +26,11 @@ Videre kan man se mer spesifikt på hvilke ASN som er slått inn flest ganger, o
 
 <img width="394" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/021183c6-2454-4c23-8b8d-3e08ecc14bd6">
 
-Søker man opp disse IP-adressene får man opp at disse tilhører datasentere fra ulike land. Mange av disse er markert som spam, og de er dermed ikke de mest relevante å se på. Videre kan man se på hva slags sårbarheter som ble mest utnyttet, og hvilke brukernavn og passord som ble benyttet.
+Søker man opp disse IP-adressene får man opp at disse tilhører datasentere fra ulike land. Mange av disse er markert som spam, og de er dermed ikke de mest relevante å se på. Her er en oversikt over hva IP-adressene er klassifisert som:
+
+<img width="212" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/190c4839-1ff1-49b4-92a0-2157eb0ba236">
+
+Videre kan man se på hva slags sårbarheter som ble mest utnyttet, og hvilke brukernavn og passord som ble benyttet.
 
 <img width="520" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/d341479e-82d4-4c18-ad40-2daf1dc47daa">
 
