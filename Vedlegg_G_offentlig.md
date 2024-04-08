@@ -44,4 +44,17 @@ I tillegg kan man se hva slags operativsystemer som aktørene har benyttet:
 <img width="230" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/cb5bff67-3fb7-4430-8823-8c09e34f88f2">
 
 ## Cowrie
-En av honeypotene som ble truffet mest var Cowrie, en SSH-honeypot
+En av honeypotene som ble truffet mest var Cowrie, en SSH-honeypot.
+
+
+
+<img width="929" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/eef9b5b1-ad15-4b93-81a2-75171efbe5d1">
+
+<img width="937" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/67c5e579-15b4-40a3-b72a-38b850333275">
+
+<img width="952" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/8229558c-719e-4a38-8384-b11a18f6a7d6">
+
+<img width="950" alt="image" src="https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/4e18b146-a75e-4da8-83cc-7de123a52403">
+
+
+
