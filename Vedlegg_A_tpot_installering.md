@@ -88,5 +88,11 @@ Legg merke til at <your ip> endrer seg.
   sudo systemctl status networking.service
 ```
 Og bekreft at den er "aktiv"
+
 ![image](https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/e46f9d88-4e0b-40f0-a5d7-c84e9044f539)
+
+## Oppsett
+Under er et bilde av hvordan T-Pot er bygd opp:
+
+![image](https://github.com/Tobskjel/honeypot-bachelor/assets/17578354/c5551ba6-67f4-4125-8644-cfeb2ebfa80c)
 
