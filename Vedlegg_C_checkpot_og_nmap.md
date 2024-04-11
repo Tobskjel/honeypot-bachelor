@@ -21,6 +21,15 @@ pip install -r requirements.txt
 
 Når dette er gjort kan man begynne testing
 
+## Testing
+For testingen sørget vi for å være på samme nett som T-Pot og kunne nå IP-adressen til denne. Da kan man benytte følgende kommando
+```bash
+python checkpot.py -t <IP> -l 3
+```
+Her betyr "-l 3" hvor grundig skanningen gjøres fra 1-3 der 3 er det høyeste
+
+Ved spørsmål "Do you agree to these terms", skriv "i agree"
+
 # Metasploit
 Vi benyttet Metasploit, et datasikkerhetsprosjekt som gir informasjon om sikkerhetssårbarheter og hjelper til med penetrasjonstesting og utvikling av IDS-signaturer.
 Hensikten var å se hva slags resultater dette programmet ga oss, og om den klarer å oppdage noen honeypots
